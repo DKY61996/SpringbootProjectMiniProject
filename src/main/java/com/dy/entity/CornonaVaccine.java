@@ -106,5 +106,7 @@ public class CornonaVaccine implements Serializable {
 	
 
 	
-
+Public String method5() {
+System .out.println("This line i have written in feature branch");
+}
 }
