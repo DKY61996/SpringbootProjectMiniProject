@@ -55,6 +55,9 @@ public class CoronaVaccineServiceImp implements ICoronaVaccineService {
 	public Iterable<CornonaVaccine> fetchAllById(List<Long> ids) {
 		
 		return Coronarepo.findAllById(ids);
+
+public String Method6() {
+	System.out.println("This changes is done by Dev2");
 	}
 
 }
