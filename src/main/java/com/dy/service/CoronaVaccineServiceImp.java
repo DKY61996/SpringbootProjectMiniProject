@@ -56,5 +56,7 @@ public class CoronaVaccineServiceImp implements ICoronaVaccineService {
 		
 		return Coronarepo.findAllById(ids);
 	}
+	public String Method7() {
+		System.out.println(" the Changes done by ZIA in Branch Project");
 
 }
